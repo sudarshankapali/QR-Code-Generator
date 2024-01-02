@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.sub-container{
+    background-color: royalblue;
+    display: inline-block;
+    padding: 30px;
+    border-radius: 15px;
+    color: white;
+}
+h1{
+    margin-bottom: 10px;
+}
+input{
+    margin-bottom: 10px;
+    width: 100%;
+}
+#btn{
+    background-color: gray;
+    color: white;
+    width: 100%;
+}
