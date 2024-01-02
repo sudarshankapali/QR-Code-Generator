@@ -3,14 +3,16 @@ const qrCode = document.querySelector("#qr-image");
 function generateQRImage(){
     clearQR();
     const url = document.querySelector("#userURL").value;
-    generateQrCode(url);
+    const size = document.querySelector("#wid").value;
+    if(url === "") alert("Input field is empty");
+    else generateQrCode(url,size);
 
 }
-const generateQrCode = (url) => {
+const generateQrCode = (url,size) => {
     const qr = new QRCode(document.getElementById("qr-image"), {
     text: url,
-    width: 300,
-    height: 300,
+    width: size,
+    height: size,
     });
 
 }

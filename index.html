@@ -12,10 +12,10 @@
             <h1>QR Code Generator</h1>
             <p>Enter the URL or text to generate QR Code</p>
             <input type="text" name="userURL" id="userURL" placeholder="Enter your URL" required></br>
+            <input type="number" name="width" id="wid" placeholder="Enter size" min="100" max="500" required></br>
             <button id="btn" onclick="generateQRImage()">Generate QR code</button>
         </div>
         <div id="qr-image">
-
         </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
