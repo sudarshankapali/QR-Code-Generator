@@ -1,6 +1,9 @@
 .container{
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
 
 .sub-container{
@@ -9,6 +12,7 @@
     padding: 30px;
     border-radius: 15px;
     color: white;
+    margin-bottom: 20px;
 }
 h1{
     margin-bottom: 10px;
