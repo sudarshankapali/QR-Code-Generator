@@ -1,4 +1,4 @@
-#QR-Code Generator
+# QR-Code Generator
 This is a simple qr code generator made using HTML,CSS and js.
 To make this project I have used QRCode.js library which is available at cdnjs.com.
 ```bash
